@@ -11,7 +11,7 @@ export const Footer = styled(({...styleProps}) => {
                 {` `}
                 <a href="https://www.gatsbyjs.org">Gatsby</a> and{" "}
                 <a href="https://www.tinacms.org">Tina</a> <span> and </span>
-                <a href="https://www.tinacms.org">Kevin</a>
+                <a href="https://captainclawz.netlify.app/">Clawz</a>
                 {/*<a href="https://www.forestry.io">Forestry.io</a>*/}
             </Wrapper>
         </footer>
