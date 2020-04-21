@@ -1,16 +1,22 @@
 {
-  "title": "About",
+  "title": "About the Pirate  🦜",
   "path": "/about",
   "blocks": [
     {
       "_template": "TitleBlock",
       "title": "",
       "underline": true,
-      "content": ""
+      "content": "",
+      "center": false
     },
     {
-      "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Expressa vero in iis aetatibus, quae iam confirmatae sunt. At, si voluptas esset ato, physicum se voluit.\n\n```javascript\n\nfunction fizzBuzz(length, markers){\n    \tvar output;\n    \tfor(var i=1;i<=length;i++){\n    \t\toutput = '';\n    \t\tvar number;\n    \t\tvar term;\n    \t\tfor(var j=0;j<markers.length;j++){\n    \t\t\tnumber = markers[j].number;\n    \t\t\tterm = markers[j].term;\n    \t\t\tif(i%number === 0){\n    \t\t\t\toutput+=term;\n    \t\t\t}\n    \t\t}\n    \t\tif(output === '') {\n    \t\t\toutput+=i;\n    \t\t}\n    \t\tprint(output);\n    \t}\n    }\n```\n\nHonesta oratio, Socratica, Platonis etiam. Ergo illi intellegunt quid Epicurus dicat, ego non intellego? Maximas vero virtutes iacere omnis necesse est voluptate dominante. At multis malis affectus. Non minor, inquit, voluptas percipitur ex vilissimis rebus quam ex pretiosissimis. Bonum integritas corporis: misera debilitas.\n\n> Perspicuum est enim, nisi aequitas, fides, iustitia proficiscantur a natura, et si omnia haec ad utilitatem referantur, virum bonum non posse reperiri;",
+      "content": "You may be wondering what Dev-Ops have to do with being a pirate and we will get right to that, but first, allow me to introduce myself, My name is Captain Clawz and I work as a Dev-Ops engineer in Prague. I speak mostly **Ruby** and **JavaScript**. I create rum-time environments with **Docker**, CI/CD  pipelines with **Jenkins**, tell tall tails with **Selenium**, **Cucumber** and **Grafana** and as of recent, develop single page web applications with **React**, in short, _my toolkit for sailing the vast oceans of the DevOps universe_.\n\nDev-Ops is a great endeavour and not to be undertaken lightly, traversing the seas of open source with nothing but your quick wits and your trusty old vessel: _the Linux kernel_. And what do we do with all the loot? Well we keep it in wooden chests and bury it in the abandoned server rooms of obsolete technology right here on Clawz island. I bet you would like to get hold of that treasure map, HA! Well shiver me timbers, as sure as the itch on my wooden leg, I invite you on this perilous journey. You better kiss your lucky dubloon ...for luck! For the rewards of living a life of open source debauchery often come at great cost, or my leg would not have come to a gritty ends in the belly of a greedy tiger shark, aarrrrr!\n\nThe pirate",
       "_template": "ContentBlock"
+    },
+    {
+      "image": "../images/pirate-profile-crossbones.jpg",
+      "_template": "ImageBlock",
+      "content": ""
     }
   ],
   "displayTitle": true
